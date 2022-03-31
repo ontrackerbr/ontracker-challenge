@@ -2,7 +2,7 @@
 
 Dado que a `Ontracker` é uma empresa de tecnologia em `IOT` fornecendo plataformas para monitoramento, rastreamento, gestão de frotas, gestão de telemetria... o nosso desafio aqui para vc q está afim de fazer parte da nossa equipe é:
 
-Hoje temos diversos tipos de dipostivos em campo transmitindo dados usando a internet no protocolo `TCP/UDP`. O formato dos dados transmitidos podem variar de dipositivo para dispositvo por exemplo:
+Hoje temos diversos tipos de dipostivos em campo transmitindo dados usando a internet através do protocolo `TCP/UDP`. O formato dos dados transmitidos podem variar de dipositivo para dispositvo por exemplo:
 
 ##### Formato de Dados do Dispotivo X:
 ```
@@ -23,5 +23,31 @@ onde temos o seguinte layout:
 ```
 HEADER,DEVICE_ID,DATE,HOUR,LAT,LNG
 ```
+
+Dado o desenho:
+![image](https://user-images.githubusercontent.com/797845/161099155-55b32939-58a7-422c-aa6d-18621b2b5c73.png)
+
+queremos q vc desenvolva uma solução onde:
+
+* teremos um único modelo de dados na Ontracker
+* listagem do histórico de transmissão do dispositivo com os seguintes filtros:
+  * todos os dispositivos
+  * pelo device_id
+  * por período de transmissão
+* uma das três apps no desenho para visualização dos requisitos acima
+
+Obs:
+* pode usar uma linguagem de sua preferência (usamos muito java aqui)
+* para o desenvolvimento web usamos `vue.js`
+* para o mobile usamos `flutter`
+* para o client api linguagem de sua preferẽncia 
+
+
+como vamos avaliar ?
+
+* criar um projeto privado no `GitHub` e fornecer acesso para a seguinte conta `robsonoduarte`
+* é extremamente necessário ter um `README` explicando no mínimo como rodoar o projeto localmente 
+* rodaremos em uma `VM` (linux) onde não teremos `nenhum` ambinente configurado, portando precisremos de instruções para configurações 
+
 
 
