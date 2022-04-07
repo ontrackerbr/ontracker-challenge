@@ -45,4 +45,4 @@ como vamos avaliar ?
 
 * criar um projeto privado no `GitHub` e fornecer acesso para a seguinte conta `robsonoduarte`
 * é extremamente necessário ter um `README` explicando no mínimo como rodoar o projeto localmente
-* executaremos  em uma `VM` (linux) onde não teremos `nenhum` ambiente configurado, portanto precisaremos de instruções para as configurações
+* executaremos  em uma `VM` (linux) onde não teremos `nenhum` ambiente configurado, portanto precisaremos de instruções para as configurações baseanda em comandos `CLI` (não teremos interface gráfica)
